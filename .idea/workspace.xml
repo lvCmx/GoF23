@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61e4f37-b71a-49f4-a7fb-3e58cf82d9fa" name="Default" comment="单例模式">
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/抽象工厂.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/BuildPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/BuildTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/ConcreteBuildPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/builder/建造者模式.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/ComputProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/ComputProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/PhoneProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/PhoneProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/factorymethod/工厂方法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/prototype/原型模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/adapter/ClassAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/adapter/InterfaceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/adapter/ObjectAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/adapter/适配器模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/proxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/proxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/proxy/StudentProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sxl/GoF/proxy/代理模式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/sxl/GoF/builder/建造者模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/com/sxl/GoF/builder/建造者模式.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,90 +24,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BYDCar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDCar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BYDCarFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDCarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/AbstractFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="建造者模式.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/建造者模式.md">
+      <file leaf-file-name="代理模式.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/代理模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildPerson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/BuildPerson.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="45">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteBuildPerson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/ConcreteBuildPerson.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Director.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/Director.java">
+      <file leaf-file-name="StudentProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/StudentProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="180">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/BuildTest.java">
+      <file leaf-file-name="ProxyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -132,38 +84,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/builder/Person.java">
+      <file leaf-file-name="适配器模式.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/适配器模式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassAdapterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/ClassAdapterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BYDEngine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/abstractfactory/BYDEngine.java">
+      <file leaf-file-name="ObjectAdapterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/ObjectAdapterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="67">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/InterfaceAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -229,6 +198,17 @@
         <option value="$PROJECT_DIR$/src/com/sxl/GoF/builder/BuildTest.java" />
         <option value="$PROJECT_DIR$/src/com/sxl/GoF/builder/Person.java" />
         <option value="$PROJECT_DIR$/src/com/sxl/GoF/builder/建造者模式.md" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/代理模式.md" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/Target.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/StudentProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/proxy/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/adapter/适配器模式.md" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/adapter/AdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/adapter/ClassAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/adapter/ObjectAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sxl/GoF/adapter/InterfaceAdapter.java" />
       </list>
     </option>
   </component>
@@ -248,7 +228,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="819" />
@@ -284,7 +264,7 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuildTest">
+  <component name="RunManager" selected="Application.ObjectAdapterTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.abstractfactory.AbstractFactoryTest" />
       <module name="DesignPatterns" />
@@ -335,24 +315,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.factorymethod.FactoryMethodTest" />
+    <configuration name="ClassAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.adapter.ClassAdapterTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sxl.GoF.factorymethod.*" />
+          <option name="PATTERN" value="com.sxl.GoF.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.prototype.Prototype" />
+    <configuration name="ObjectAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.adapter.ObjectAdapterTest" />
       <module name="DesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sxl.GoF.prototype.*" />
+          <option name="PATTERN" value="com.sxl.GoF.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxl.GoF.proxy.ProxyTest" />
+      <module name="DesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxl.GoF.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,17 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Prototype" />
-      <item itemvalue="Application.FactoryMethodTest" />
       <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.BuildTest" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.ClassAdapterTest" />
+      <item itemvalue="Application.ObjectAdapterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectAdapterTest" />
+        <item itemvalue="Application.ClassAdapterTest" />
+        <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.BuildTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryMethodTest" />
-        <item itemvalue="Application.Prototype" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +417,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551339473834</updated>
       <workItem from="1551339481570" duration="223000" />
-      <workItem from="1551344396608" duration="12860000" />
+      <workItem from="1551344396608" duration="15914000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式">
       <created>1551345014848</created>
@@ -444,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13083000" />
+    <option name="totallyTimeSpent" value="16137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="0" />
@@ -833,6 +826,108 @@
             <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/代理模式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/StudentProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/适配器模式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/ClassAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/ObjectAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sxl/GoF/adapter/InterfaceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="15" />
         </state>
       </provider>
     </entry>
